@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Floor Map -->
+    <com.github.chrisbanes.photoview.PhotoView
+        android:id="@+id/mapImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerInside"/>
+
+    <!-- Route Overlay -->
+    <com.example.campus_guide_app.RouteView
+        android:id="@+id/routeView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <!-- Room Marker -->
+    <View
+        android:id="@+id/marker"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:background="@drawable/marker"/>
+    <View
+        android:id="@+id/destinationMarker"
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:background="@drawable/red_marker"/>
+    <View
+        android:id="@+id/connectorMarker"
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:background="@drawable/gold_marker"/>
+    <!-- Back Button -->
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_margin="16dp"
+        android:background="@null"
+        android:src="@android:drawable/ic_media_previous"/>
+
+    <!-- Room Details -->
+    <TextView
+        android:id="@+id/txtRoomDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginStart="16dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="8dp"/>
+
+</FrameLayout>

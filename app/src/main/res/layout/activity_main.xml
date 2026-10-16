@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <TextView
+        android:text="Campus Guide"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnRooms"
+        android:text="Rooms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"/>
+    <Button
+        android:id="@+id/btnDepartments"
+        android:text="Departments"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:id="@+id/btnMap"
+        android:text="Campus 360° view"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btnQRcode"
+        android:text="QR Code"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="40dp">
+
+    <!-- Back Button -->
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@android:drawable/ic_media_previous"
+        android:background="@null"/>
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FLOORS"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30dp"/>
+
+    <!-- Floor Buttons -->
+    <Button
+        android:id="@+id/btnFloor0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Floor 0"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btnFloor1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Floor 1"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btnFloor2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Floor 2"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btnFloor3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Floor 3"
+        android:layout_marginBottom="10dp"/>
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="40dp">
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@android:drawable/ic_media_previous"
+        android:background="@null"/>
+    <TextView
+        android:id="@+id/txtCurrentLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edtDestination"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter room number (e.g. 161)"
+        android:layout_marginTop="24dp"/>
+
+    <Button
+        android:id="@+id/btnNavigate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Navigate"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/txtRoute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginTop="24dp"/>
+
+</LinearLayout>

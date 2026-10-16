@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="40dp">
+
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@android:drawable/ic_media_previous"
+        android:background="@null"/>
+    <TextView
+        android:text="Room Selection"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="24dp"/>
+
+
+    <EditText
+        android:id="@+id/searchBar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Search rooms..."
+        android:drawableStart="@android:drawable/ic_menu_search"
+        android:padding="12dp"
+        android:layout_margin="16dp"
+        android:background="@drawable/search_bg"
+        android:textColor="#FFFFFF"
+        android:elevation="4dp"
+        android:drawablePadding="8dp"
+        android:textColorHint="#AAAAAA"/>
+    <TextView
+        android:id="@+id/txtNoResults"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No results found"
+        android:textSize="18sp"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewRooms"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

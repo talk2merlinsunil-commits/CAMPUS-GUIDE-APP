@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:paddingTop="32dp">
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@android:drawable/ic_media_previous"
+        android:background="@null"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DEPARTMENTS"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/btnEEE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dept. of Electrical and Electronics Engineering"/>
+
+    <Button
+        android:id="@+id/btnCE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dept. of Civil Engineering"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnME"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dept. of Mechanical Engineering"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnAE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dept. of Aeronautical Engineering"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnISE"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginTop="10dp"
+        android:text="Dept. of Information Science and Engineering" />
+
+
+
+    <Button
+        android:id="@+id/btnCS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dept. of Computer Science Engineering"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnMBA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dept. of MBA"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnTC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dept. of Telecommunication"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnEC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dept. of Electronics Communication"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
